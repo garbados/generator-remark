@@ -1,15 +1,15 @@
 {
   "name": "generator-remark",
-  "version": "0.0.1",
-  "description": "A generator for Yeoman",
+  "version": "0.0.2",
+  "description": "A Yeoman generator for scaffolding Remark presentations",
   "keywords": [
     "yeoman-generator"
   ],
   "homepage": "https://github.com/garbados/generator-remark",
   "bugs": "https://github.com/garbados/generator-remark/issues",
   "author": {
-    "name": "Max",
-    "email": "",
+    "name": "Max Thayer",
+    "email": "garbados@gmail.com",
     "url": "https://github.com/garbados"
   },
   "main": "app/index.js",
