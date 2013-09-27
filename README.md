@@ -9,7 +9,15 @@ A [Yeoman](http://yeoman.io/) generator for scaffolding [Remark](http://gnab.git
 - Install the generator: `npm install -g generator-remark`
 - Run: `yo remark`
 
-To view your presentation, run: `grunt server`
+To view your presentation: 
+
+    grunt server
+
+To deploy your presentation as a couchapp to a local CouchDB instance under the `remark` database:
+
+    grunt deploy
+
+To configure where your presentation deploys, modify `couchapp.json`.
 
 ## License
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)

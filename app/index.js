@@ -38,6 +38,9 @@ RemarkGenerator.prototype.app = function app() {
   this.template('_Gruntfile.js', 'Gruntfile.js');
   this.copy('_package.json', 'package.json');
   this.copy('_bower.json', 'bower.json');
+
+  this.copy('_couchapp.json', 'couchapp.json');
+  this.template('_app.js', 'app.js');
 };
 
 RemarkGenerator.prototype.projectfiles = function projectfiles() {

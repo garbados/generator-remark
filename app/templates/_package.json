@@ -10,6 +10,8 @@
     "grunt-open": "~0.2.0",
     "grunt-contrib-watch": "~0.4.3",
     "grunt-template": "~0.2.0",
-    "matchdep": "~0.1.1"
+    "matchdep": "~0.1.1",
+    "grunt-couchapp": "~0.2.0",
+    "couchapp": "~0.10.0"
   }
 }

@@ -75,6 +75,12 @@ module.exports = function(grunt) {
         ],
         tasks: ['template']
       }
+    },
+    mkcouchdb: {
+      app: require('./couchapp.json')
+    },
+    couchapp: {
+      app: require('./couchapp.json')
     }
   });
 
